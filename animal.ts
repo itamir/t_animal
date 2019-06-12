@@ -14,4 +14,5 @@ class Animal {
     }
 }
 
-document.body.innerHTML = new Animal("Cachorro", 3, "Toto").descrever();
+let a = new Animal("Cachorro", 3, "Toto");
+console.log(a.descrever());
